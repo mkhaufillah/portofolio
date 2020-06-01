@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "covid19",
+  "description": "Covid19 data tracker",
+  "icons": {
+    "60": "https://filla.id/covid-19/icons/firefox_app_60x60.png",
+    "128": "https://filla.id/covid-19/icons/firefox_app_128x128.png",
+    "512": "https://filla.id/covid-19/icons/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "mkhaufillah",
+    "url": "https://filla.id/"
+  }
+}
