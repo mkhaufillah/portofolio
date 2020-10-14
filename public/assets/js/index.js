@@ -1,5 +1,6 @@
 // Theme switch
-const KEY_THEME = 'KEY_THEME'
+const version = '1.0';
+const KEY_THEME = 'KEY_THEME';
 let theme = 'light';
 let root = document.documentElement;
 if (typeof (Storage) !== "undefined") {
@@ -145,7 +146,7 @@ function detectNavLogicMobile() {
 }
 
 function loadSkills() {
-    loadJSON('assets/js/skills.json', function (response) {
+    loadJSON(`assets/json/skills_v${version}.json`, function (response) {
         let skills = JSON.parse(response);
         let elemSkill = '';
         for (let skill of skills) {
@@ -175,7 +176,7 @@ function loadSkills() {
 }
 
 function loadEducations() {
-    loadJSON('assets/js/educations.json', function (response) {
+    loadJSON(`assets/json/educations_v${version}.json`, function (response) {
         let educations = JSON.parse(response);
         let elemSkill = '';
         for (let education of educations) {
@@ -194,7 +195,7 @@ function loadEducations() {
 }
 
 function loadExperiences() {
-    loadJSON('assets/js/experiences.json', function (response) {
+    loadJSON(`assets/json/experiences_v${version}.json`, function (response) {
         let experiences = JSON.parse(response);
         let elemSkill = '';
         for (let experience of experiences) {
@@ -213,7 +214,7 @@ function loadExperiences() {
 }
 
 function loadAchievements() {
-    loadJSON('assets/js/achievements.json', function (response) {
+    loadJSON(`assets/json/achievements_v${version}.json`, function (response) {
         let achievements = JSON.parse(response);
         let elemSkill = '';
         for (let achievement of achievements) {
@@ -232,7 +233,7 @@ function loadAchievements() {
 }
 
 function loadPortofolios() {
-    loadJSON('assets/js/portofolios.json', function (response) {
+    loadJSON(`assets/json/portofolios_v${version}.json`, function (response) {
         let portofolios = JSON.parse(response);
         let elemSkill = '';
         let id = 0;
@@ -329,7 +330,7 @@ function loadPortofolios() {
 }
 
 function loadPublications() {
-    loadJSON('assets/js/publications.json', function (response) {
+    loadJSON(`assets/json/publications_v${version}.json`, function (response) {
         let publications = JSON.parse(response);
         let elemSkill = '';
         for (let publication of publications) {
