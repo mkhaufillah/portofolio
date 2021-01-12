@@ -1,23 +1,23 @@
 [
     {
+        "icon": "fas fa-laptop-code",
+        "name": "Automation Test",
+        "value": "90%"
+    },
+    {
         "icon": "fas fa-mobile",
         "name": "Mobile Development <small>(Flutter, Native Android)</small>",
-        "value": "95%"
+        "value": "70%"
     },
     {
         "icon": "fab fa-css3-alt",
         "name": "Frontend Web Development <small>(VueJS)</small>",
-        "value": "95%"
-    },
-    {
-        "icon": "fas fa-laptop-code",
-        "name": "MEVN Stack",
         "value": "70%"
     },
     {
         "icon": "fas fa-laptop-code",
         "name": "SQL",
-        "value": "60%"
+        "value": "70%"
     },
     {
         "icon": "fas fa-laptop-code",
