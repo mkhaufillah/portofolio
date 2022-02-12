@@ -1,5 +1,6 @@
+const version = '4.0';
+
 // Theme switch
-const version = '3.0';
 const KEY_THEME = 'KEY_THEME';
 let theme = 'light';
 let root = document.documentElement;

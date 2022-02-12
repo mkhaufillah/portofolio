@@ -1,13 +1,13 @@
 [
     {
         "icon": "fas fa-laptop-code",
-        "name": "Automation Test",
+        "name": "Automated Software Testing",
         "value": "90%"
     },
     {
         "icon": "fas fa-mobile",
         "name": "Mobile Development <small>(Flutter, Native Android)</small>",
-        "value": "70%"
+        "value": "80%"
     },
     {
         "icon": "fab fa-css3-alt",
