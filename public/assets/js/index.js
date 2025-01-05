@@ -1,4 +1,4 @@
-const version = '4.0';
+const version = '4.1';
 
 // Theme switch
 const KEY_THEME = 'KEY_THEME';
@@ -158,6 +158,7 @@ function loadSkills() {
                         <span class="icon"><i class="${skill.icon}"></i>&nbsp;</span>
                         <span>${skill.name}</span>
                     </div>
+                    <!--
                     <div class="progress-bar">
                         <div class="bar">
                             <div>
@@ -168,6 +169,7 @@ function loadSkills() {
                             <span>${skill.value}</span>
                         </div>
                     </div>
+                    -->
                 </div>
                 `;
         }
